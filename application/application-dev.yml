@@ -4,8 +4,8 @@ spring:
   rabbitmq:
     host:  paascloud-mq-rabbit
     port: 5672
-#    username: root
-#    password: root
+    username: '{cipher}AQBpZhSh52BJZNb5NSk+IvRqKv5K6HCL14+fzMSC+6TDXUU1xH9bYs2kt3QCgsTry+ID3kMPNomLjQXfQHbCTh3dxClmdiu3b9kKZMbmmM0sE+CufR1EOXcGVq1OCy6+tFD4cxGjrIqPqs0dplWS+cZlNQxwe+By67RDIq3Yi0Bqz+PRTcBbttUKg2yZSUqR0TMhO0GSPmDadWV+CQLKEPDRFXzbIPYIID4n6I4aEcH/bSU3dqBCKLOz65/xhY3g2/3CBwpYwqlhiVCJRRQSyAeLUdJuwHxoyQ/nfSOKy9q25rYD7OASGIHLDBFKXdLfhcKVyzMGt3qv7DJkoIFe17kLwg/Ae/TyonzBTsr8PkR6PwcY2eRJ7GkW8aXa0qsOfWo='
+    password: '{cipher}AQBpZhSh52BJZNb5NSk+IvRqKv5K6HCL14+fzMSC+6TDXUU1xH9bYs2kt3QCgsTry+ID3kMPNomLjQXfQHbCTh3dxClmdiu3b9kKZMbmmM0sE+CufR1EOXcGVq1OCy6+tFD4cxGjrIqPqs0dplWS+cZlNQxwe+By67RDIq3Yi0Bqz+PRTcBbttUKg2yZSUqR0TMhO0GSPmDadWV+CQLKEPDRFXzbIPYIID4n6I4aEcH/bSU3dqBCKLOz65/xhY3g2/3CBwpYwqlhiVCJRRQSyAeLUdJuwHxoyQ/nfSOKy9q25rYD7OASGIHLDBFKXdLfhcKVyzMGt3qv7DJkoIFe17kLwg/Ae/TyonzBTsr8PkR6PwcY2eRJ7GkW8aXa0qsOfWo='
   redis:
     host: paascloud-db-redis
     password: '{cipher}AQBwKsuxplHAIMIV0Z+aJ+X5MpFPOP8NmxTo/XwFdYZ2k+RPck2Xo7011ku09BQI4ReqWXMmWL1IYxuNVnhEV7ol9NElMOjceuIsI1RON82nVeaO0zFTyibF7Ik1/JM0C4JGSgAblXGmWTVqsnb9GQA9KFFju1+YWnIEBdenBfNT/g7/gkZGZVdfZYJFBIjLL0hgmOs+zsct6jb1PO5cRqeBVX575FP3q1KUtwIBc4T/a2OpyivOitPfhUyuaCMpwOwprZtMarxkzRcaMIzXPVRRnMNbOIrb7HWtNwYlmbXC8qs9+uzmUWFnnbylRLErFI4AMGqVbOROaCzV20pXj0Lb/dULym+bjhl//AEThgqCUfJlcMENVnZm9xEXZxO5iSc='
@@ -87,8 +87,8 @@ paascloud:
             required: true
   aliyun:
     key:
-      accessKeyId: '{cipher}AQAmNVIsiqUKXwwceKweqqD/ujX7Ddh6vO8xPcitxmKXPmFZz9hqPz7kKeDzO1K+x3uhIfE5MzuvdtHBorBLWblEIP3BRIHMbqOATArdiMJcwdOMvioWG7qmUsur9shjRflqYGSvWzwm7V2A7SXI8dPRu/hmV14EeepLVleBWNwNWCjDTgwrybF44xY1vkg/cKDMoarx/yO5JpOMkAeN9YaxGL+QcPp79mniquIxpt/Rdk59Bdmmzf/v4WaXKnc/16Rz9hIkezN9zdQ4fvbaTvo0K75rQLmRFKJyUGsZ84xWaIswFbLhwnsZL8bnGmRhAAXkFTAflXtGRjFx+ObRQKCIxtbRf0MVHNVeSn3C8MrhdXGu5vEWQUbUQ0bO2ubclKEGseX8MC6MNxfBRzNKZIbA'
-      accessKeySecret: '{cipher}AQCgMlN0Da165+O/z6HkeLVnMm5VNql5V7zTQl4OXJFrDNra1EB11ZVkkUYzJcVLHIEZiyNQ0/Swby2scatGPuAzQpNGRypQZV+pdYhTxcW3sJFhWMiGQM3chKtta3lO2RNc8WdSgJQoMkTvEQLotN9/KjhaEXSOfhs3tW/qHhT7m0ketNe8Zj+PWSdj22hxCdEir5/2/yfqaGvh/tI8wznDpBG1pUvsgGLC+VmhSpYth5kQtM4LS1TPsXEjaZYqy+m+jxVuHYRX2CujZ/knIrgQDOs0cgIw9kR4aEWESX1qDSC0zwpygXatl5s5X3v/jgZUMB7bZR7kZ5E3AWaPaE69i828jbAHqACgFnUkJ3ptwMHnMjEKoJP/65FwFudOE+ntkcNHll3ISMeh9CfZ9/nv'
+      accessKeyId: '{cipher}AQB6Kbido8WBy4joIVC4kuQuNsnm3mAYETILJi2Z+BQRVWcqxH2u4B+GoQJiiPF3bw04xXkqdj6XoQTwlZvsf5I/h341M3HSjygNmCYeq6iQxNyc/YD7qzX+1ds84dTR660XSWd6R0M3ywmh6W1Dc7bucGUGH9Uix8EkAnkDs+e6oBZrpba5EK62k3jVRfmufLk66H8XBSLH2zx0taFqjRLOUJrkMpSHluwLuQ2ojbhOKNRywH63zdC3IlDjcFqn0Ahu/+3RaNBrG9NIeGbzVZxmREYYk+4E7KBYhYxOucYPK5CCVGoY3QXWPKD1Jk+dy6LlzIY05UscQIbhnN9JeBO7UF+pymeTqu5BO0S59r8+rlzjWG8lw4hYy9UDU7kCK6zHYR/6uhgNuIW0lzLdwbgs'
+      accessKeySecret: '{cipher}AQAse5xkCDLmnLLjPeNib9N0SEUCWs6S0CRGEzTQE46E73PcuK9INdvHjd1Zh2eg/5DnlXVlLiaeJcfRWKgVQk1YkIjxjwUiGXP4rPkd5BhhUiX3+1STs6NE79y3hFRWFpsuFqnoct2T+Ahg2LaBSB/GfNB1ToytbtRfdxd399SX+to0WIzLMmBlzCOL+C6wClUVusHGbncDCvnzzxKS/1Rp60gKBdC/DbePggLIlaQu3jCfhw05VIjB6x9LSmKIXTKSNFrggoNlgfabHheVfw/sc7EBGb54D7V91pCshbnSzMSdSSZ0O625Npp889fQa1ia4rIk08WXf8p6stmJn+sqQvyYQ+Fo87ZGbq42VS4s5DKd1Hzsndec1sGXLrkyZDwCb1DsUkDUceEYEBVbEzkB'
     rocketMq:
       namesrvAddr: paascloud-mq-rocket:9876
     sms:
