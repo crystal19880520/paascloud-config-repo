@@ -4,17 +4,17 @@ spring:
   rabbitmq:
     host:  paascloud-mq-rabbit
     port: 5672
-    username: guest
-    password: guest
+    username: '{cipher}AQBpZhSh52BJZNb5NSk+IvRqKv5K6HCL14+fzMSC+6TDXUU1xH9bYs2kt3QCgsTry+ID3kMPNomLjQXfQHbCTh3dxClmdiu3b9kKZMbmmM0sE+CufR1EOXcGVq1OCy6+tFD4cxGjrIqPqs0dplWS+cZlNQxwe+By67RDIq3Yi0Bqz+PRTcBbttUKg2yZSUqR0TMhO0GSPmDadWV+CQLKEPDRFXzbIPYIID4n6I4aEcH/bSU3dqBCKLOz65/xhY3g2/3CBwpYwqlhiVCJRRQSyAeLUdJuwHxoyQ/nfSOKy9q25rYD7OASGIHLDBFKXdLfhcKVyzMGt3qv7DJkoIFe17kLwg/Ae/TyonzBTsr8PkR6PwcY2eRJ7GkW8aXa0qsOfWo='
+    password: '{cipher}AQBpZhSh52BJZNb5NSk+IvRqKv5K6HCL14+fzMSC+6TDXUU1xH9bYs2kt3QCgsTry+ID3kMPNomLjQXfQHbCTh3dxClmdiu3b9kKZMbmmM0sE+CufR1EOXcGVq1OCy6+tFD4cxGjrIqPqs0dplWS+cZlNQxwe+By67RDIq3Yi0Bqz+PRTcBbttUKg2yZSUqR0TMhO0GSPmDadWV+CQLKEPDRFXzbIPYIID4n6I4aEcH/bSU3dqBCKLOz65/xhY3g2/3CBwpYwqlhiVCJRRQSyAeLUdJuwHxoyQ/nfSOKy9q25rYD7OASGIHLDBFKXdLfhcKVyzMGt3qv7DJkoIFe17kLwg/Ae/TyonzBTsr8PkR6PwcY2eRJ7GkW8aXa0qsOfWo='
   redis:
     host: paascloud-db-redis
-    password: paascloud@redis
+    password: '{cipher}AQBwKsuxplHAIMIV0Z+aJ+X5MpFPOP8NmxTo/XwFdYZ2k+RPck2Xo7011ku09BQI4ReqWXMmWL1IYxuNVnhEV7ol9NElMOjceuIsI1RON82nVeaO0zFTyibF7Ik1/JM0C4JGSgAblXGmWTVqsnb9GQA9KFFju1+YWnIEBdenBfNT/g7/gkZGZVdfZYJFBIjLL0hgmOs+zsct6jb1PO5cRqeBVX575FP3q1KUtwIBc4T/a2OpyivOitPfhUyuaCMpwOwprZtMarxkzRcaMIzXPVRRnMNbOIrb7HWtNwYlmbXC8qs9+uzmUWFnnbylRLErFI4AMGqVbOROaCzV20pXj0Lb/dULym+bjhl//AEThgqCUfJlcMENVnZm9xEXZxO5iSc='
     port: 6379
     timeout: 0
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    username: root
-    password: 123456
+    username: '{cipher}AQBwKsuxplHAIMIV0Z+aJ+X5MpFPOP8NmxTo/XwFdYZ2k+RPck2Xo7011ku09BQI4ReqWXMmWL1IYxuNVnhEV7ol9NElMOjceuIsI1RON82nVeaO0zFTyibF7Ik1/JM0C4JGSgAblXGmWTVqsnb9GQA9KFFju1+YWnIEBdenBfNT/g7/gkZGZVdfZYJFBIjLL0hgmOs+zsct6jb1PO5cRqeBVX575FP3q1KUtwIBc4T/a2OpyivOitPfhUyuaCMpwOwprZtMarxkzRcaMIzXPVRRnMNbOIrb7HWtNwYlmbXC8qs9+uzmUWFnnbylRLErFI4AMGqVbOROaCzV20pXj0Lb/dULym+bjhl//AEThgqCUfJlcMENVnZm9xEXZxO5iSc='
+    password: '{cipher}AQBok7QIOmnx1TgD23c9It6tLDZIFrUrhiS1to6KLLrAEX4Dn52WF/owj9taLulKwTWOAOG61lTl8PMme0y1eFphQYrqgCr7Sz2quChv4oo2d2s1pJCK1xjC+Q/+VFktLniYJJGVjOuKZpkb79YQ2ASaKLPOm2raH7+nCUL2LAMcGY2s+5RFjhPeINLYwODTr8IiH1ak2UMai27NyfYe8x9wn7DJZ+WdyT7c6NntxRkvahzzm9ca5CW97uiugmBZW7rDM+l45zThUYJQDB3wcCzCCTwO8lt/SpNVn0IWp71uKrcmIpTOXnxpm6AB3WZ9rlHDFPm7TxWcB/b4eL5LkAi9BL9CF98e0eZriqlPKe7foMrgZxcMDmTQkKzG+WiPUio='
     type: com.alibaba.druid.pool.DruidDataSource
     initial-size: 10
     min-idle: 10
@@ -74,8 +74,8 @@ paascloud:
       expiredMinutes: 120
   mail:
     host: smtp.sina.cn
-    username: 1301804694@qq.com
-    password: WSYBL!19880815
+    username: '{cipher}AQAR7CGRsNJ9tGKCKuv3Y1Tn6DWUD4P5Xzp+0LeqGg5qfjsRi+fL/EGEWvzeysKuH1ChLnSZ1T5hrJeBoImdmltSkN5iPZqjBJs6CAm48ksst39F6KaPyNmTqjU0UheTTeJkZoQxdtA/3OXxVWazHRZK7/34KLStohlPav1K3qAnkDj/Y62tKT67qhsAPTCOnLaaH6ab6NpX0h95mE0yz0w6070iHDDeFrAef627Crwh4QLKieSQg005zwVgYED/dPi4/PRNQWoC3brPUURloVCKs1EYaru8NmJ9bKMzURmuI74A1rSI/I7rGm3AE6BURHihnUnuzBehUgsSa8G0zN2zh2awhkyuBSJLn+eMmfxHH601vZwG7pDkQQBHJ9rwNxP5fbEeow+sWw9qa/nBls+K'
+    password: '{cipher}AQAXyZKaUjiYntQ+bxlDpDbYQmZv/ZePZurJ//xyZJhSL/GXNi581996S3cD8Wyy9UglzebomyOH/bkZ4+mhNrpSIJw4sD2cGuuiyIfIdpoffyuMQi5qJcWOcbDj4g03Wz6AzPiXcG5bSV6vW41LJ18ttVbXXEmRiR0CahjNsYzTTc+PFAIT2Sm9GgS6eq9x1g+njQBrRN52G1tDQsruy5cT0gk8j2kG1Ysof/KTYfjhMsfWzRMYz3nEs5+csWx73DCsXMIl5F1oy/sWCkdJn5SBP+QtTfCcOu58HoXjwjoD8LW89V5F/BWR2TpwvCfdhEG0PwCMIDS4X6E4p9qP6trfij8uls0Rx8+No8fdrNtW3TvGM/pLbFk26Kv4r65Itic='
     test-connection: true
     properties:
       mail:
@@ -87,8 +87,8 @@ paascloud:
             required: true
   aliyun:
     key:
-      accessKeyId: ''
-      accessKeySecret: ''
+      accessKeyId: '{cipher}AQAj0RLIidm18HhpXN/cFXnU9sHXnEF7PNrf1w/CplICEU7vewufqa0uLx4jggmWmhaixTQp8u8p0h0R3yffR+l2WUK6zzmgT8y0sog3PBIbA46E5B2ziSzwnBeGFxG6gEw1FxBOBKzrPHnvMZhgc7ya1ssF4Z67b63sVhTA/wfc3MNeMks1g+FBV6Tjkjfksdbvj0MULrg0faaIkaW2z7hu6oAX9Y4PFd3odw/BCyUBk1i7XlnUFZKZ/TnsSzLp3ZIv5yz3OAVvw+t5zkCO7ZFLmjZWyfm9hAQKSIzjOrm9S1RtObRHJN1NMtPQhYwDE4tS+pB7PXS6ZVAW2Zv3t+q3/3FaT9mKwIJHAvGPN7XBVsAhZPrGREm0ZyQURWeNd245/F/cdyRrnjQ+wLQjEtq/'
+      accessKeySecret: '{cipher}AQAKyfBs9XaFKUcYKHALgKv+/vXukHP4m3AP+z0rd19lRvRKzYX2gW/++qQqXqTa5WWrBp0Js1+/sqS08SqSzdgQx3ZcZkNcwcoDJ2SEB8ZSXz72rexLhdO7xZKptpwxGyWMG6TL6RMIm5xQqhJ42TK4yfUVsdUenO+tJlV2/ScIQFl+5iop8+ECsLnflJacbGJRwlDQHsadSB8sk+nySG5XiSTxtsjDK5KDrgHRfNPMEKqy7tDLRQMikGmK6wuHqzTXX1ZCVID0gXhC1K3oRAdN1/svHoL8IWTZK/B2ZSHbhVcZd/imkpW173FSfXou8yZ7+ERQOH7EMOxhoSXCrm2tAkN8z5ra3gLws6/54biY6cWop6Qh8T1nDpScWOV8XG0='
     rocketMq:
       namesrvAddr: paascloud-mq-rocket:9876
     sms:
@@ -96,15 +96,15 @@ paascloud:
       regionId: cn-beijing
       endpoint:
       endpointName: cn-beijing
-      product: ''
+      product: '{cipher}AQA7u26JNrD0HwL9I0AVyPHAxVhqMlphW4vjGjhW+V0qoTliek9Pb1xdfbIGhzGtVOPfyFg1x3IU84wgurS9WZycFLu35W36hMC/ZayvWUGXzcSQMJqBw7sGz0hSG3thJyN4/cYRGjhmuF0FaxIqSBCxxSVav/rpVyCLXlQu4Yr3dKmcyTnQBgVMcJ1573mxkOv59ItjiyQM+wZ2rBupKlcjEml30i+xGdNKZVHektuffzIjSSWMwfgd5vSb0eLuW9m55mR0lnFxVhhZobctUWKTtF6RUidJsjexLaioMjPGMS0txpHP57Gq2NVkgbi7HsHK8iTPQg2LJ2C4kFoqKmgzvzrsZEhCb9VyNVJ5+JNoZJYfIGyimxokpBhR/glILbA='
       domain: dysmsapi.aliyuncs.com
   qiniu:
     key:
-      accessKey: ''
-      secretKey: ''
+      accessKey: '{cipher}AQA/gE689pGSMZe0wWKRgwxnTqqMfooWUgaU8i6OuIVWNuJ6xki3vpgOmiVfAxZpiHIovD22cmN1g48xzKcb2/HvA7phoMM4BHTKUiJjQsDZArV4zmlyGlYJj3EFyezHjAd5mU2HshiZNYPqIWBgfYdKolmqTH51MZJ2RE4Z71lS/Gr0Am3iafhsnXC7BIByPAuHvdJDYhN87w/MrKePOV6myWmbKWhxQb/e0GEadquFfrKGibgWCkEcKdBeLuMmX9VJ3wW9+TIy9ckPebpgD9hXak9uP4t0HAIFmzsOFAE/uOyRC6HsCzCCah13Vxmh8gTwhwK9Psy3mWf7r9W+VeDS0Qv5kP6RhkGk2P4xvifqHEo8x5yWjnypVQ07+y7rVxrw1mXxgXGnsZ6naN3YtLEK'
+      secretKey: '{cipher}AQAKyfBs9XaFKUcYKHALgKv+/vXukHP4m3AP+z0rd19lRvRKzYX2gW/++qQqXqTa5WWrBp0Js1+/sqS08SqSzdgQx3ZcZkNcwcoDJ2SEB8ZSXz72rexLhdO7xZKptpwxGyWMG6TL6RMIm5xQqhJ42TK4yfUVsdUenO+tJlV2/ScIQFl+5iop8+ECsLnflJacbGJRwlDQHsadSB8sk+nySG5XiSTxtsjDK5KDrgHRfNPMEKqy7tDLRQMikGmK6wuHqzTXX1ZCVID0gXhC1K3oRAdN1/svHoL8IWTZK/B2ZSHbhVcZd/imkpW173FSfXou8yZ7+ERQOH7EMOxhoSXCrm2tAkN8z5ra3gLws6/54biY6cWop6Qh8T1nDpScWOV8XG0='
     oss:
-      privateHost: ''
-      publicHost: ''
+      privateHost: '{cipher}'
+      publicHost: '{cipher}'
   alipay:
     callback:
       url: http://dev-api.paascloud.net/omc/pay/alipayCallback
